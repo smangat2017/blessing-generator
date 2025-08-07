@@ -112,7 +112,7 @@ export async function POST(request: NextRequest) {
 
     for (const line of lines) {
       if (line.trim() === '') {
-        yPosition += 4 // Minimal space for empty lines
+        yPosition += 8 // Increased space for empty lines
         continue
       }
 
@@ -129,9 +129,9 @@ export async function POST(request: NextRequest) {
       const splitText = pdf.splitTextToSize(line, pageWidth - 60)
       for (const textLine of splitText) {
         pdf.text(textLine, pageWidth / 2, yPosition, { align: 'center' })
-        yPosition += 4 // Compact line spacing
+        yPosition += 6 // Increased line spacing for better readability
       }
-      yPosition += 2 // Minimal space between paragraphs
+      yPosition += 6 // Increased space between paragraphs
     }
 
     // Add graceful signature section

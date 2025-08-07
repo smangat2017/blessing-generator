@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     description: 'Transform your love into meaningful blessings. Share your heart with those you cherish.',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1530686350401-7de25243dd89?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        width: 2342,
+        url: 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=2352&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        width: 2352,
         height: 1561,
         alt: 'Beautiful blessing with spiritual colors and stars',
       },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Blessing Generator',
     description: 'Transform your love into meaningful blessings. Share your heart with those you cherish.',
-    images: ['https://images.unsplash.com/photo-1530686350401-7de25243dd89?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'],
+    images: ['https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=2352&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'],
   },
 }
 
